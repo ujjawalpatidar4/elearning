@@ -15,7 +15,6 @@ const Login = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     await loginUser(email, password, navigate, fetchMyCourse);
-    await loginUser(email, password, navigate);
   };
   return (
     <div className="auth-page">
